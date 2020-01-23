@@ -16,6 +16,6 @@ FROM php:7.4-cli-alpine
 LABEL maintainer="Gerben Geijteman <gerben@hyperized.net>"
 LABEL description="A basic alpine phive image"
 
-RUN apk -U add ncurses
+RUN apk -U add ncurses gnupg
 
 COPY --from=builder /build/phive.phar /usr/local/bin/phive
