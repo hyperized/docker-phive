@@ -1,6 +1,6 @@
 # Phive
 
-Simple, multistage Alpine based phive.io container. Updated monthly
+Simple, multistage Alpine based https://phar.io/ phive container. Updated monthly
 
 ## Usage
 
